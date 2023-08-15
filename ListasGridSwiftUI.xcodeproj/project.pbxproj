@@ -13,6 +13,8 @@
 		921EA0192A8B020D00A3F6CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 921EA0182A8B020D00A3F6CB /* Preview Assets.xcassets */; };
 		921EA01B2A8B020D00A3F6CB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EA01A2A8B020D00A3F6CB /* Persistence.swift */; };
 		921EA01E2A8B020D00A3F6CB /* ListasGridSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 921EA01C2A8B020D00A3F6CB /* ListasGridSwiftUI.xcdatamodeld */; };
+		921EA0252A8B02AD00A3F6CB /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EA0242A8B02AD00A3F6CB /* Modelo.swift */; };
+		921EA0272A8B107100A3F6CB /* ListGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921EA0262A8B107100A3F6CB /* ListGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		921EA0182A8B020D00A3F6CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		921EA01A2A8B020D00A3F6CB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		921EA01D2A8B020D00A3F6CB /* ListasGridSwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ListasGridSwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		921EA0242A8B02AD00A3F6CB /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		921EA0262A8B107100A3F6CB /* ListGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				921EA01A2A8B020D00A3F6CB /* Persistence.swift */,
 				921EA01C2A8B020D00A3F6CB /* ListasGridSwiftUI.xcdatamodeld */,
 				921EA0172A8B020D00A3F6CB /* Preview Content */,
+				921EA0242A8B02AD00A3F6CB /* Modelo.swift */,
+				921EA0262A8B107100A3F6CB /* ListGrid.swift */,
 			);
 			path = ListasGridSwiftUI;
 			sourceTree = "<group>";
@@ -144,9 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				921EA01B2A8B020D00A3F6CB /* Persistence.swift in Sources */,
+				921EA0272A8B107100A3F6CB /* ListGrid.swift in Sources */,
 				921EA0142A8B020C00A3F6CB /* ContentView.swift in Sources */,
 				921EA0122A8B020C00A3F6CB /* ListasGridSwiftUIApp.swift in Sources */,
 				921EA01E2A8B020D00A3F6CB /* ListasGridSwiftUI.xcdatamodeld in Sources */,
+				921EA0252A8B02AD00A3F6CB /* Modelo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
